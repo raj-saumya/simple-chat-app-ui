@@ -1,0 +1,39 @@
+.login__wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #11001c;
+  flex-direction: column;
+}
+
+input[type="text"].card__input {
+  outline: none;
+  width: 360px;
+  border-radius: 4px;
+  padding: 12px 8px;
+  font-family: bitter;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+}
+
+.card__submit {
+  align-self: center;
+  padding-left: 24px;
+  cursor: pointer;
+}
+
+.submit__img {
+  height: 32px;
+}
+
+.handle__info {
+  color: #ac90bf;
+  font-family: bitter;
+  font-size: 16px;
+}
